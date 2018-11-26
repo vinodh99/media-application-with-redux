@@ -3,10 +3,10 @@ import { Link} from 'react-router';
 
 const HomePage = () => (
     <div className = "jumotron center">
-        <h1 className = "lead"> wlecome to media lib</h1>
-        <link to ="library">
+        <h5 className = "lead"> wlecome to media lib</h5>
+        <Link to ="library">
         <button className= "btn btn-lg btn-primary">visit library</button>
-        </link>
+        </Link>
     </div>
 )
 export default HomePage;

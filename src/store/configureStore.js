@@ -8,7 +8,7 @@ import rootSaga from '../sagas';
 // It can  also take initialState argument when provided
 
 const configureStore = () => {
-    const createSagaMiddleware = createSagaMiddleware();
+    const sagaMiddleware = createSagaMiddleware();
 
     return {
         ...createStore(rootReducer,

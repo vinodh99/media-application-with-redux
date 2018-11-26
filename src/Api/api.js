@@ -6,7 +6,7 @@ const SHUTTER_CLIENT_SECRET = '7698001661a2b347c2017dfd50aebb2519eda578';
 
 const basicAuth = () => 'Basic'.concat(window.btoa(`${SHUTTER_CLIENT_ID}:${SHUTTER_CLIENT_SECRET}`));
 const authParameters = {
-    // mode: "no-cors", // no-cors, cors, *same-origin
+    mode: "no-cors", // no-cors, cors, *same-origin
     headers: {
         Authorization: basicAuth()
     }

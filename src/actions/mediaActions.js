@@ -2,14 +2,14 @@ import * as types from '../constants/actionTypes';
 
 
 // returns an action type, selected_image and the image selected
-export const selectedImageAction = (image) => ({
+export const selectImageAction = (image) => ({
     type:types.SELECTED_IMAGE,
     image
 });
 
 //returns an action type, selected_video and the video selected
 
-export const selectedVideoAction = (video) =>({
+export const selectVideoAction = (video) =>({
     type: types.SELECTED_VIDEO,
     video
 });
